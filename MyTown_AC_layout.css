@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* 
+INF-146 Project 1 – My Town 
+SPRING 2023
+
+Written by: Aaron Carbonell
+Date: 02/13/2023 
+filename: MyTown_AC_layout.css
+*/
+    
+
+/* general body styles */
+html {
+    margin: 0 auto;
+    background-color: rgb(168, 168, 29);
+}
+body {
+    margin: 0 auto;
+    background-color: rgb(168, 168, 29);
+    font-family: Tahoma;
+}
+header > a > h1 {
+    margin: 0 auto;
+    font-size: 2.0em;
+    text-align: center;
+}
+
+header > a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: rgb(67, 114, 55);
+    font-family: Tahoma;
+}
+
+body > img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* nav styles */
+nav {
+    display: table;
+    width: 100%;
+    font-family: Tahoma;
+}
+
+nav > ul {
+    display: table-row;
+}
+
+nav > ul > li {
+    display: table-cell;
+    text-align: center;
+    background-color: rgb(108, 186, 87);
+}
+
+nav > ul > li > a {
+    display: block;
+    color: cyan;
+    text-decoration: none;
+}
+
+nav > ul > li > a:visited {
+    color: purple;
+    text-decoration: none;
+}
+
+
+
+/* section styles */
+#caption{ 
+    text-align: center;
+}
+
+#Welcome {
+    margin: 0 auto;
+    background-color: rgb(207, 207, 107);
+    
+}
+
+#Welcome::first-letter {
+    font-size: 40px;
+    line-height: 30px;
+}
+
+#Fact1 {
+    background-color: rgb(140, 187, 207);
+    margin: 0 auto;
+    text-align: center;
+}
+#Fact1 > ul {
+    text-align: left;
+}
+
+#Fact2 {
+    background-color: rgb(158, 140, 207);
+    margin: 0 auto;
+    text-align: center; 
+}
+
+#Fact2 > ul {
+    text-align: left;
+}
+#Fact3 {
+    background-color: rgb(207, 179, 140);
+    margin: 0 auto;
+    text-align: center;    
+}
+
+#Fact3 > ul {
+    text-align: left;
+}
+
+#Fact4 {
+    background-color: rgb(204, 207, 140);
+    margin: 0 auto;
+    text-align: center;
+}
+
+#Fact4 > ul {
+    text-align: left;
+}
+
+#parks {
+    background-color: rgb(247, 160, 156);
+    margin: 0 auto;
+    
+}
+
+#recs {
+    background-color: rgb(194, 186, 230);
+    margin: 0 auto;
+}
+
+
+
+/* footer styles */
+footer{
+    text-align: center;
+    background-color: rgb(207, 207, 107);
+}
